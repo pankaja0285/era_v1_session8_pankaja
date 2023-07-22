@@ -31,7 +31,7 @@ About the file structure</br>
    __test.py<br/>
    __train.py<br/>
 |__S8.ipynb<br/>
-|__README.nd<br/>
+|__README.md<br/>
 
 **NOTE:** List of libraries required: ***torch*** and ***torchsummary***, ***tqdm*** for progress bar, which are installed using requirements.txt<br/>
 
