@@ -44,11 +44,6 @@ jupyter notebook
 2. Upload the notebook folder ***era_v1_session8_pankaja*** to google colab at [colab.google.com](https://colab.research.google.com/) and run it on colab<br/>
 
 ###
-**Context:** The drill down analysis starts from Step 0 through Step 6 and the analysis is laid out as Target, Results and Analysis. <br />
-- Target: what is the target we are setting up as
-- Results: what results we are getting
-- Analysis: basically analyzing what we are doing in the model in this step, what is the algorithm etc.,
-
 ### Batch Normalization:
 **File used: models/model.py, model with Net1 Class**
 <p>
