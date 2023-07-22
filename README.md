@@ -30,12 +30,14 @@ About the file structure</br>
    __plot_metrics.py<br/>
    __test.py<br/>
    __train.py<br/>
-|__CiFAR_S8.ipynb<br/>
+|__CiFAR_S8_bn.ipynb<br/>
+|__CiFAR_S8_gn.ipynb<br/>
+|__CiFAR_S8_ln.ipynb<br/>
 |__README.md<br/>
 
 **NOTE:** List of libraries required: ***torch*** and ***torchsummary***, ***tqdm*** for progress bar, which are installed using requirements.txt<br/>
 
-One of 2 ways to run any of the notebooks, for instance **CiFARS8.ipynb** notebook:<br/>
+One of 2 ways to run any of the notebooks, for instance **CiFAR_S8_bn.ipynb** notebook:<br/>
 1. Using Anaconda prompt - Run as an **administrator** start jupyter notebook from the folder ***era_v1_session8_pankaja*** and run it off of your localhost<br/>
 **NOTE:** Without Admin privileges, the installs will not be correct and further import libraries will fail. <br/>
 ```
@@ -45,7 +47,7 @@ jupyter notebook
 
 ###
 ### Batch Normalization:
-**File used: models/model.py, model with Net1 Class**
+**File used: models/model.py, model with Net1 Class and CiFAR_S8_bn.ipynb**
 <p>
 Target:
 - create a model with Batch Normalization as the normalization method
@@ -59,7 +61,7 @@ Analysis:
 </p>
 
 ### Group Normalization:
-**File used: models/model.py, model with Net2 Class**
+**File used: models/model.py, model with Net2 Class and CiFAR_S8_gn.ipynb**
 <p>
 Target:
 - create a model with Group Normalization as the normalization method
@@ -73,7 +75,7 @@ Analysis:
 </p>
 
 ### Linear Normalization:
-**File used: models/model.py, model with Net3 Class**
+**File used: models/model.py, model with Net3 Class and CiFAR_S8_ln.ipynb**
 <p>
 Target:
 - create a model with Linear Normalization as the normalization method
