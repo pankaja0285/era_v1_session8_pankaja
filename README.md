@@ -52,7 +52,7 @@ Target:
 
 Results:
 - Total parameters: 52,576
-- Train accuracy of  and test accuracy of 77.69
+- Train accuracy of 77.69 and test accuracy of 83.75
 
 Analysis:
 - To see how the accuracy is using Batch Normalization method.
@@ -66,7 +66,7 @@ Target:
 
 Results:
 - Total parameters: 52,576
-- Train accuracy of  and test accuracy of 77.69
+- Train accuracy of 75.39 and test accuracy of 82.24
 
 Analysis:
 - To see how the accuracy is using Group Normalization method.
@@ -80,7 +80,7 @@ Target:
 
 Results:
 - Total parameters: 52,576
-- Train accuracy of  and test accuracy of 77.69
+- Train accuracy of 75.20 and test accuracy of 81.57
 
 Analysis:
 - To see how the accuracy is using Linear Normalization method.
