@@ -1,7 +1,7 @@
 ### Purpose: Apply 3 different Normalization methods.
 
 ## Based on CiFAR 10 dataset
-### Create 3 different one for each Normalization methods:- 
+### Create 3 different models, one for each Normalization methods:- 
 - Batch Normalization
 - Group Normalization
 - Linear Normalization
